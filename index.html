@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional web development services specializing in accessible, semantic HTML5 websites">
+    <meta name="keywords" content="HTML5, web accessibility, semantic web, SEO optimization">
+    <meta name="author" content="WebDev Solutions">
+    <title>Accessible Web Development | WebDev Solutions</title>
+    
+    <!-- Accessibility -->
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Skip to Content Link (Accessibility) -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Semantic Header -->
+    <header role="banner">
+        <h1>WebDev Solutions</h1>
+        <p>Building accessible, semantic websites</p>
+        
+        <!-- Primary Nav -->
+        <nav aria-label="Main navigation">
+            <h2 class="visually-hidden">Site Navigation</h2>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Services Section -->
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Our Services</h2>
+            
+            <article aria-labelledby="semantic-dev-heading">
+                <h3 id="semantic-dev-heading">Semantic HTML Development</h3>
+                <p>We build websites using proper HTML5 structure for better accessibility and SEO.</p>
+            </article>
+            
+            <article aria-labelledby="accessibility-heading">
+                <h3 id="accessibility-heading">Accessibility Audits</h3>
+                <p>Ensuring your site meets WCAG 2.1 AA standards.</p>
+            </article>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Us</h2>
+            <p>We specialize in creating websites that work for everyone.</p>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <address>
+            <p>Email: <a href="mailto:contact@webdev.example">contact@webdev.example</a></p>
+            <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+        </address>
+    </section>
+
+    <!-- Semantic Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2023 WebDev Solutions. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/accessibility">Accessibility Statement</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
